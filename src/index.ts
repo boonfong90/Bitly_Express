@@ -5,7 +5,16 @@ import { Routes } from "./routes";
 import * as cors from 'cors'
 
 export const storage = {
-    users: []
+    urls: [
+        {
+            "id": 1,
+            "url": "https://gitpitch.com/mingxiangchan/dell-slides/express-1#/16"
+        },
+        {
+            "id": 2,
+            "url": "https://app.slack.com/client/TH6HDU98A/GLBL0UK3K"
+        }
+    ]
 }
 
 export const srcPath = __dirname
