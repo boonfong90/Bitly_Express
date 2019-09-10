@@ -8,13 +8,13 @@ export const Routes = [{
 },
 {
     method: "get",
-    route: "bit.ly/urls/:id",
+    route: "/bit.ly/urls/:id",
     controller: TestController,
     action: "showURL"
 },
 {
     method: "post",
-    route: "bit.ly/urls",
+    route: "/bit.ly/urls",
     controller: TestController,
     action: "postURL"
 }];

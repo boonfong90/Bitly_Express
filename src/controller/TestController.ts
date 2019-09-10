@@ -21,6 +21,8 @@ export class TestController {
     async postURL(request: Request, response: Response, next: NextFunction) {
         const data = request.body
         
+        console.log(data)
+
         storage.urls.push({
             id: storage.urls.length + 1,
             url: data.url
